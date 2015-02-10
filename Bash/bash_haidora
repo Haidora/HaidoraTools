@@ -1,0 +1,12 @@
+#sublime
+alias sublime='open -a "Sublime Text"'
+
+#pod
+alias pod-install-no-repo-update='pod install --no-repo-update'
+alias pod-install-no-repo-update-v='pod install --no-repo-update --verbose'
+alias pod-repo-update='pod repo update'
+alias pod-repo-update-v='pod repo update --verbose'
+
+#finder
+alias finder-showAll-NO='defaults write com.apple.finder AppleShowAllFiles -bool NO'
+alias finder-showAll-YES='defaults write com.apple.finder AppleShowAllFiles -bool YES'

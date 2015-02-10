@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>method_tableview_datasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark
+#pragma mark Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+#warning Potentially incomplete method implementation.
+    // Return the number of sections.
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+#warning Incomplete method implementation.
+    // Return the number of rows in the section.
+    return 0;
+}
+
+/*
+ - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ //    UITableViewCell *cell = [ITKTableViewCell cellForTableView:tableView withStyle:UITableViewCellStyleDefault];
+ //    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier"];
+ //    if (!cell)
+ //    {
+ //        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"reuseIdentifier"];
+ //    }
+ 
+ 
+ // Configure the cell...
+ 
+ //    return cell;
+ }
+ */
+
+/*
+ - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+ {
+ 
+ }
+ */
+
+/*
+ - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
+ {
+ 
+ }
+ */</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>74BB09B1-4AF8-4209-A064-75EF73374A98</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableView DataSource</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITableView DataSource XcodeTools(hulk)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
