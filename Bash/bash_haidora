@@ -10,3 +10,6 @@ alias pod-repo-update-v='pod repo update --verbose'
 #finder
 alias finder-showAll-NO='defaults write com.apple.finder AppleShowAllFiles -bool NO'
 alias finder-showAll-YES='defaults write com.apple.finder AppleShowAllFiles -bool YES'
+
+#git
+alias git-log-file='git log -p'
