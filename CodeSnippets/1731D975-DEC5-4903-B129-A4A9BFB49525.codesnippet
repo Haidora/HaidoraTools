@@ -18,15 +18,17 @@
 /**
  *  &lt;#建议做addSubview,子View的生成留到Getter里面#&gt;
  */
--(void)viewDidLoad
+- (void)viewDidLoad
 {
     [super viewDidLoad];
+    //    [self prepareForData];
+    //    [self prepareForView];
 }
 
 /**
  *  &lt;#建议做布局,比如约束,坐标修改#&gt;
  */
--(void)viewWillLayoutSubviews
+- (void)viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
 }
@@ -34,7 +36,7 @@
 /**
  *  &lt;#用于数据更新#&gt;
  */
--(void)viewWillAppear:(BOOL)animated
+- (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
 }
@@ -42,19 +44,34 @@
 /**
  *  &lt;#添加通知监听和事件等#&gt;
  */
--(void)viewDidAppear:(BOOL)animated
+- (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    [self prepareForAction];
 }
 
 /**
  *  &lt;#移除通知等#&gt;
  */
--(void)viewDidDisappear:(BOOL)animated
+- (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
 }
 
+#pragma mark
+#pragma mark PrepareConfig
+
+- (void)prepareForData
+{
+}
+
+- (void)prepareForView
+{
+}
+
+- (void)prepareForAction
+{
+}
 
 /**
  *  &lt;#Delegate 名称需要写全，方便点击进入#&gt;
@@ -86,6 +103,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
