@@ -1,6 +1,13 @@
 #sublime
 alias sublime='open -a "Sublime Text"'
+alias visualStudioCode='open -a "Visual Studio Code"'
 
+#pod 0.39.0
+alias pod-0-39-0='pod _0.39.0_'
+alias pod-0-39-0-install-no-repo-update='pod-0-39-0 install --no-repo-update'
+alias pod-0-39-0-install-no-repo-update-v='pod-0-39-0 install --no-repo-update --verbose'
+alias pod-0-39-0-repo-update='pod-0-39-0 repo update'
+alias pod-0-39-0-repo-update-v='pod-0-39-0 repo update --verbose'
 #pod
 alias pod-install-no-repo-update='pod install --no-repo-update'
 alias pod-install-no-repo-update-v='pod install --no-repo-update --verbose'
@@ -13,3 +20,6 @@ alias finder-showAll-YES='defaults write com.apple.finder AppleShowAllFiles -boo
 
 #git
 alias git-log-file='git log -p'
+
+#bundler
+alias bundle-instal='bundler install --path ~/vendor/bundle/'

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewControllerBaseStruct</string>
+	<string>viewcontrollersimple</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -15,44 +15,24 @@
 #pragma mark
 #pragma mark Life Cycle
 
-/**
- *  &lt;#建议做addSubview,子View的生成留到Getter里面#&gt;
- */
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //    [self prepareForData];
-    //    [self prepareForView];
-    //    [self prepareForAction];
+    [self prepareForData];
+    [self prepareForView];
+    [self prepareForAction];
 }
 
-/**
- *  &lt;#建议做布局,比如约束,坐标修改#&gt;
- */
-- (void)viewWillLayoutSubviews
-{
-    [super viewWillLayoutSubviews];
-}
-
-/**
- *  &lt;#用于数据更新#&gt;
- */
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
 }
 
-/**
- *  &lt;#添加通知监听和事件等#&gt;
- */
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
 }
 
-/**
- *  &lt;#移除通知等#&gt;
- */
 - (void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
@@ -73,33 +53,23 @@
 {
 }
 
-/**
- *  &lt;#Delegate 名称需要写全，方便点击进入#&gt;
- */
 #pragma mark
 #pragma mark XXXDelegate
 
-/**
- *  &lt;#用于按钮、手势等事件#&gt;
- */
 #pragma mark
 #pragma mark Event Response
 
-/**
- *  &lt;#getter里面可以懒加载初始化#&gt;
- */
 #pragma mark
-#pragma mark Getter/Setter</string>
+#pragma mark Getter/Setter
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1731D975-DEC5-4903-B129-A4A9BFB49525</string>
+	<string>CF04F830-18DC-4031-8454-78626F071637</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ViewController Base Struct </string>
+	<string>viewcontrollersimple</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ViewController Base Struct XcodeTools(hulk)</string>
+	<string>viewcontroller simple hulk</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
